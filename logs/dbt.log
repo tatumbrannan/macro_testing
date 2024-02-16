@@ -337,3 +337,17 @@ Runtime Error
 [0m16:25:52.162490 [debug] [MainThread]: Command `dbt debug` failed at 16:25:52.162172 after 0.20 seconds
 [0m16:25:52.163544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d2ea610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b9e7f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d0d2fd0>]}
 [0m16:25:52.164501 [debug] [MainThread]: Flushing usage events
+[0m16:26:48.222887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d1e9110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d26e250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d1b1810>]}
+
+
+============================== 16:26:48.229384 | d9354d3e-236c-4879-a1cf-6207193906d7 ==============================
+[0m16:26:48.229384 [info ] [MainThread]: Running with dbt=1.5.1
+[0m16:26:48.230636 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/tatumbrannan/Documents/github/macro_testing/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/tatumbrannan/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m16:26:48.240464 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m16:26:48.241272 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "macro_testing", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+[0m16:26:48.242448 [debug] [MainThread]: Command `dbt run` failed at 16:26:48.242197 after 0.06 seconds
+[0m16:26:48.243008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d177110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d1c7090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d497e50>]}
+[0m16:26:48.243435 [debug] [MainThread]: Flushing usage events
