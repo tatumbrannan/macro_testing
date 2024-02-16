@@ -1,0 +1,41 @@
+
+# Project name + version 
+name: 'macro_testing'
+version: '1.0.0'
+config-version: 2
+
+# This setting will set a helpful error message for user that are attempting to run
+# the project with an unsupported verion. 
+require-dbt-version: '>=1.4.5'
+
+profile: 'macro_testing'
+# These configurations specify where dbt should look for different types of files.
+# The `model-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You probably won't need to change these!
+model-paths: ["models"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+
+
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
+models:
+  macro_testing:
+    +persist_docs:
+      relation: true
+      columns: true
+    
+      
+seeds:
+    +persist_docs:
+      relation: true
+      columns: true
