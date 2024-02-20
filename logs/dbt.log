@@ -619,3 +619,24 @@ Compilation Error
 [0m10:09:55.751645 [debug] [MainThread]: Command `dbt run` failed at 10:09:55.751645 after 0.67 seconds
 [0m10:09:55.752645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001682A48B2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001682E661780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001682E661630>]}
 [0m10:09:55.752645 [debug] [MainThread]: Flushing usage events
+[0m10:24:55.214816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194B968B8B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194BC68A770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194BC689090>]}
+
+
+============================== 10:24:55.217818 | 62353954-ea1b-4c7a-95c1-16e6c261286a ==============================
+[0m10:24:55.217818 [info ] [MainThread]: Running with dbt=1.7.8
+[0m10:24:55.217818 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\tatum\\Documents\\github\\macro_testing\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\tatum\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m10:24:55.582593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '62353954-ea1b-4c7a-95c1-16e6c261286a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194BA196E30>]}
+[0m10:24:55.657661 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '62353954-ea1b-4c7a-95c1-16e6c261286a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194B9DE9330>]}
+[0m10:24:55.658662 [info ] [MainThread]: Registered adapter: snowflake=1.7.1
+[0m10:24:55.686693 [debug] [MainThread]: checksum: 67f0013ca5f0bd43af9a0873dd50792fde83ef69de63b71cacd0b4ac656c52e5, vars: {}, profile: , target: , version: 1.7.8
+[0m10:24:55.699704 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m10:24:55.699704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '62353954-ea1b-4c7a-95c1-16e6c261286a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194BD5C6B00>]}
+[0m10:24:55.840635 [error] [MainThread]: Encountered an error:
+Compilation Error
+  dbt found two macros named "check_unused_data" in the project "macro_testing".
+   To fix this error, rename or remove one of the following macros:
+      - macros\second_option.sql
+      - macros\check_unused_data.sql
+[0m10:24:55.842760 [debug] [MainThread]: Command `dbt run` failed at 10:24:55.842760 after 0.67 seconds
+[0m10:24:55.843765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194B968B8B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194BD9696F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194BD9695A0>]}
+[0m10:24:55.843765 [debug] [MainThread]: Flushing usage events
