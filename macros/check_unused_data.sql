@@ -1,7 +1,38 @@
-{% macro check_unused_data(in_database, in_schema, in_object, in_time_interval) %}
+-- macros/get_unused_objects.sql
+{% macro get_unused_objects(schema_name) %}
+WITH object_usage AS (
     SELECT
-        (SELECT MAX(end_time) FROM {{ in_database }}.INFORMATION_SCHEMA.QUERY_HISTORY WHERE query_text ILIKE '%' || '{{ in_database }}' || '.' || '{{ in_schema }}' || '.' || '{{ in_object }}' || '%') AS last_usage,
-        (SELECT COUNT(*) FROM {{ in_database }}.INFORMATION_SCHEMA.QUERY_HISTORY WHERE query_text ILIKE '%' || '{{ in_database }}' || '.' || '{{ in_schema }}' || '.' || '{{ in_object }}' || '%') AS query_count,
-        (SELECT COUNT(*) FROM {{ in_database }}.{{ in_schema }}.{{ in_object }} WHERE last_accessed_timestamp < CURRENT_TIMESTAMP() - {{ in_time_interval }}) AS unused_data_count
-    ;
+        base_object_name,
+        user_name,
+        MAX(QUERY_START_TIME) AS last_usage,
+        COUNT(*) AS usage_count
+    FROM
+        {{ ref(schema_name) }}.FLATTENED_LT_ACCESS_HISTORY
+    WHERE
+        USER_NAME IS NOT NULL
+        AND OBJECT_MODIFIED_BY_DDL IS NOT NULL
+    GROUP BY
+        base_object_name,
+        user_name
+),
+unused_objects AS (
+    SELECT
+        ou.base_object_name,
+        ou.user_name,
+        ou.last_usage,
+        ou.usage_count
+    FROM
+        object_usage ou
+    LEFT JOIN
+        {{ ref(schema_name) }}.FLATTENED_LT_ACCESS_HISTORY obj
+    ON
+        ou.base_object_name = obj.base_object_name
+        AND ou.user_name = obj.user_name
+    WHERE
+        DATEDIFF(DAY, ou.last_usage, CURRENT_TIMESTAMP()) > 90
+)
+SELECT
+    *
+FROM
+    unused_objects;
 {% endmacro %}
