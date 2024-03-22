@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: sf_model
+    database: SNOWFLAKE_101
+    schema: DEVELOPMENT
+    tables:
+      - name: FLATTENED_LT_ACCESS_HISTORY 
+      - name: ACCESS_HISTORY
