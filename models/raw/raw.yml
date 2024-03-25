@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: FLATTENED_LT_ACCESS_HISTORY
+  - name: flattened_lt_access_history
     description: ""
     columns:
       - name: QUERY_ID
