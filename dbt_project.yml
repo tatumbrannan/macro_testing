@@ -24,7 +24,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 vars:
-  coa_raw_schema: coa
+  schema_name: dbt_tbrannan
 
 models:
   raw:
