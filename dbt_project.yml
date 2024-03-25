@@ -1,4 +1,5 @@
 
+
 # Project name + version 
 name: 'macro_testing'
 version: '1.0.0'
@@ -23,13 +24,17 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 
-
-
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
+
+
+vars:
+  coa_raw_schema: coa
+  
+
 models:
-  macro_testing:
+  raw:
     +persist_docs:
       relation: true
       columns: true

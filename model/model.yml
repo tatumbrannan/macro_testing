@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: FLATTENED_LT_ACCESS_HISTORY
+    description: ""
+    columns:
+      - name: QUERY_ID
+        description: ""
+
+      - name: QUERY_START_TIME
+        description: ""
+
+      - name: USER_NAME
+        description: ""
+
+      - name: PARENT_QUERY_ID
+        description: ""
+
+      - name: OBJECT_MODIFIED_BY_DDL
+        description: ""
+
+      - name: ROOT_QUERY_ID
+        description: ""
+
+      - name: DIRECT_OBJECT_DOMAIN
+        description: ""
+
+      - name: DIRECT_OBJECT_ID
+        description: ""
+
+      - name: DIRECT_OBJECT_NAME
+        description: ""
+
+      - name: DIRECT_OBJECT_STAGE_KIND
+        description: ""
+
+      - name: BASE_OBJECT_DOMAIN
+        description: ""
+
+      - name: BASE_OBJECT_ID
+        description: ""
+
+      - name: BASE_OBJECT_NAME
+        description: ""
+
+      - name: BASE_OBJECT_STAGE_KIND
+        description: ""
+
+      - name: MODIFIED_OBJECT_DOMAIN
+        description: ""
+
+      - name: MODIFIED_OBJECT_ID
+        description: ""
+
+      - name: MODIFIED_OBJECT_NAME
+        description: ""
+
+      - name: MODIFIED_OBJECT_STAGE_KIND
+        description: ""
+
+   

@@ -3,7 +3,9 @@ with raw_data as (
 SELECT 
     *
 
-    from {{source('sf_model','FLATTENED_LT_ACCESS_HISTORY')}}
+    {{ source('sf_model', 'FLATTENED_LT_ACCESS_HISTORY') }}
+
+
 ) 
 select 
      QUERY_ID VARCHAR(16777216),
