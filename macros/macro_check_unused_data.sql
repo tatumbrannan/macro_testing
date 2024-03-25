@@ -1,5 +1,4 @@
--- macros/get_unused_objects.sql
-{% macro get_unused_objects(schema_name) %}
+{% macro macro_check_unused_data(schema_name) %}
 WITH object_usage AS (
     SELECT
         base_object_name,

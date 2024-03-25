@@ -28,20 +28,18 @@ vars:
 
 models:
   raw:
-    +persist_docs:
-      relation: true
-      columns: true
+    +schema: raw
+    +materialized: table
+
 
   reporting:
-    +persist_docs:
-      relation: true
-      columns: true
+    +schema: reporting_star
+    +materialized: table
+
+
 # seeds:
 #   my_seed:
 #     +persist_docs:
 #       relation: true
 #       columns: true
 
-sources:
-  sf_model:
-  +enabled: true
