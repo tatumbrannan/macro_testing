@@ -1,0 +1,14 @@
+"Consumer Price Index (CPI) forecasts, previously published estimates"
+"Note: Forecasts prior to 2023 and forecasts in tab 2023L were produced using legacy forecasting methods described in USDA, Economic Research Service (ERS), "
+"TB-1940, How USDA Forecasts Retail Food Price Inflation (May 2015). Forecasts from 2023 forward were produced using time-series forecasting methods described"
+"in ERS, TB-1957, Time-Series Methods for Forecasting and Modeling Uncertainty in the Food Price Outlook."
+Forecasts were published for both the legacy and time-series methods from January 2023 to June 2023.
+About this table: 
+      1. Each worksheet represents the year being forecast.
+      2. Each column or group of columns represents the month/year that the forecast was made. 
+"      3. Forecasts from 2023 forward are grouped in three columns by the lower-bound, midpoint, and upper-bound of the prediction interval."
+      4. Each cell represents the percent change range for each point in the forecast. 
+"Source: USDA, Economic Research Service."
+"For questions, contact:"
+"Matthew MacLachlan, matthew.maclachlan@usda.gov or Megan Sweitzer, megan.sweitzer@usda.gov
+"

@@ -1,0 +1,31 @@
+2015 CPI forecasts,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18
+Consumer Price Index item,2014-07-01 00:00:00,2014-08-01 00:00:00,2014-09-01 00:00:00,2014-10-01 00:00:00,2014-11-01 00:00:00,2014-12-01 00:00:00,2015-01-01 00:00:00,2015-02-01 00:00:00,2015-03-01 00:00:00,2015-04-01 00:00:00,2015-05-01 00:00:00,2015-06-01 00:00:00,2015-07-01 00:00:00,2015-08-01 00:00:00,2015-09-01 00:00:00,2015-10-01 00:00:00,2015-11-01 00:00:00,2015-12-01 00:00:00
+All food,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,1.5 to 2.5
+    Food away from home,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.2 to 3.2
+    Food at home,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,1.75 to 2.75,1.75 to 2.75,1.75 to 2.75,1.5 to 2.5,1.5 to 2.5,1.0 to 2.0,0.75 to 1.75
+"        Meats, poultry, and fish",3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,1.5 to 2.5
+            Meats,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.5 to 4.5,3.5 to 4.5,3.5 to 4.5,3.5 to 4.5,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5
+                Beef and veal,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,4.5 to 5.5 ,4.5 to 5.5 ,5.0 to 6.0,5.0 to 6.0,5.0 to 6.0,5.0 to 6.0,5.5 to 6.5,5.5 to 6.5,5.5 to 6.5,5.5 to 6.5,5.5 to 6.5,5.5 to 6.5,6.5 to 7.5,6.75 to 7.75
+                Pork,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,3.0 to 4.0,4.5 to 5.5 ,4.5 to 5.5 ,2.0 to 3.0,1.5 to 2.5,0.0 to 1.0,0.0 to 1.0,-1.0 to 0.0,-4.0 to -3.0,-4.0 to -3.0,-4.0 to -3.0,-4.0 to -3.0,-4.0 to -3.0,-4.0 to -3.0,-4.25 to -3.25
+                Other meats,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,3.0 to 4.0,3.5 to 4.5
+             Poultry,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,1.5 to 2.5,1.0 to 2.0,0.5 to 1.5,0.25 to 1.25
+             Fish and seafood,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,1.0 to 2.0,1.0 to 2.0,-0.5 to 0.5,-1.0 to 0.0
+        Eggs,1.0 to 2.0,1.0 to 2.0,1.0 to 2.0,1.0 to 2.0,1.0 to 2.0,1.0 to 2.0,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,3.0 to 4.0,12.5 to 13.5,12.5 to 13.5,12.5 to 13.5,12.5 to 13.5,15.0 to 16.0,16.75 to 17.75
+        Dairy products,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,0.5 to 1.5,0.5 to 1.5,-0.5 to 0.5,-1.5 to -0.5
+        Fats and oils,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.0 to 1.0,0.0 to 1.0,0.0 to 1.0,0.0 to 1.0,-0.5 to 0.5,-0.5 to 0.5,-0.5 to 0.5,-0.5 to 0.5,-0.5 to 0.5,-0.5 to 0.5,-0.5 to 0.5,-1.25 to -0.25
+        Fruits and vegetables,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,0.5 to 1.5,0.0 to 1.0 ,0.0 to 1.0 ,0.0 to 1.0 ,0.0 to 1.0 ,-0.25 to 0.75
+            Fresh fruits & vegetables,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,0.5 to 1.5,-0.5 to 0.5,-0.5 to 0.5,-0.5 to 0.5,-0.5 to 0.5,-0.75 to 0.25
+              Fresh fruits,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,0.0 to 1.0 ,-1.0 to 0.0,-1.0 to 0.0,-1.0 to 0.0,-2.0 to -1.0,-2.25 to -1.25
+              Fresh vegetables,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,0.5 to 1.5,0.0 to 1.0 ,0.0 to 1.0 ,0.0 to 1.0 ,0.5 to 1.5,0.75 to 1.75
+            Processed fruits & vegetables,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.5 to 3.5,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5
+        Sugar and sweets,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,2.0 to 3.0,2.5 to 3.5,2.5 to 3.5
+        Cereals and bakery products,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5,0.5 to 1.5
+        Nonalcoholic beverages,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,2.0 to 3.0,1.0 to 2.0,0.75 to 1.75
+        Other foods,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5,1.5 to 2.5
+About this table: ,,,,,,,,,,,,,,,,,,
+      1. Each column represents the month/year that the forecast was made. ,,,,,,,,,,,,,,,,,,
+      2. Each cell represents the percent change range for each forecast. ,,,,,,,,,,,,,,,,,,
+"Source: USDA, Economic Research Service.",,,,,,,,,,,,,,,,,,
+"For questions, contact:",,,,,,,,,,,,,,,,,,
+"Matthew MacLachlan, matthew.maclachlan@usda.gov or Megan Sweitzer, megan.sweitzer@usda.gov
+",,,,,,,,,,,,,,,,,,
